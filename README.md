@@ -1,9 +1,15 @@
-.# hangman
-hangman challenge for trexquant
+hangman
 
 
-# challenge requirement
-For this coding test, your mission is to write an algorithm that plays the game of Hangman through our API server. 
+<br>
+<div align="center">
+  <p>hangman challenge for trexquant interview<a href="https://trexquant.com/"></a>.</p>
+  <img src="https://play.google.com/store/apps/details?id=hang.man.word.guessing.games&hl=en" />
+</div>
+
+# Challenge requirement
+
+For this coding test, your mission is to write an algorithm that plays the game of Hangman through their API server. 
 
 You are required to write a “guess” function that takes current word (with underscores) as input and returns a guess letter. You will use the API codes below to play 1,000 Hangman games. You have the opportunity to practice before you want to start recording your game results.Your algorithm is permitted to use a training set of approximately 250,000 dictionary words. 
 
@@ -12,10 +18,12 @@ Your algorithm will be tested on an entirely disjoint set of 250,000 dictionary 
 In this challenge,you are offered practice api and finalapi，the practise api only have a usage limit of 100k.So I decide to to split my mission into three part:
 1,develop a hangman programme to simulate 2,develop an hangman algorithm 3,Try my best to Tune the algo until the deadline. 
 
-# my first try
-I Use the default algo to get about 18%. After that i choose conditional probability instead of overall probability to get about 20%.
+# My first try
+I Use the default algo to get about 18%.The default algo use the letter probability of all words to play the game. 
 
-# analysis
+After that i choose conditional probability instead of total probability to get about 20%.It shows that the guessed letter's impact on the unguessed letter's probability.
+
+# Analysis
 The challenge means that we should guess the word based on the length of the word.After we successfully guessed letter within the word,we have more information to guess the next letter.
 Each time we only have one letter to guess.The results will be right or wrong.If the result is wrong we will guess the second most possible letter.If the result is right we will guess next letter based on the new infomation.
 
