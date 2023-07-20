@@ -1,11 +1,6 @@
 hangman
 
-
-<br>
-<div align="center">
-  <p>hangman challenge for trexquant interview<a href="https://trexquant.com/"></a>.</p>
-  <img src="https://play.google.com/store/apps/details?id=hang.man.word.guessing.games&hl=en" />
-</div>
+![insample](./pic/c1.png)
 
 # Challenge requirement
 
