@@ -31,9 +31,7 @@ Then we will find we have guessed most of letter from the word and there are onl
 ## principle analysis
 After analysis we can generate one function:
 
-\begin{equation}
-p_{i} = p_{total} + p_{letter} \tag{1.1}
-\end{equation}
+![eq1.1](./pic/eq1.png)
 
 p_database means the probability from the big data ,we will guess the most common word from the 250000 dictionary words.
 p_letter means the probability from other existing letter
